@@ -1,0 +1,182 @@
+{
+  "dataset_size": 50000,
+  "delta_method": "1/N",
+  "history": [
+    {
+      "timestamp": "2026-02-05T11:11:27.790989",
+      "batch_size": 256,
+      "steps": 100,
+      "noise_multiplier": 1.0,
+      "clip_norm": 1.0,
+      "epsilon": 0.8732849611320082,
+      "delta": 2e-05,
+      "optimal_alpha": 10.0,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:27.803383",
+      "batch_size": 256,
+      "steps": 500,
+      "noise_multiplier": 1.0,
+      "clip_norm": 1.0,
+      "epsilon": 1.0014264540950317,
+      "delta": 2e-05,
+      "optimal_alpha": 9.9,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:27.819362",
+      "batch_size": 256,
+      "steps": 1000,
+      "noise_multiplier": 1.0,
+      "clip_norm": 1.0,
+      "epsilon": 1.1444133152542064,
+      "delta": 2e-05,
+      "optimal_alpha": 9.7,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:27.833090",
+      "batch_size": 256,
+      "steps": 2000,
+      "noise_multiplier": 1.0,
+      "clip_norm": 1.0,
+      "epsilon": 1.4045586532540792,
+      "delta": 2e-05,
+      "optimal_alpha": 9.4,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:27.845063",
+      "batch_size": 256,
+      "steps": 5000,
+      "noise_multiplier": 1.0,
+      "clip_norm": 1.0,
+      "epsilon": 2.0988158779054014,
+      "delta": 2e-05,
+      "optimal_alpha": 8.5,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:27.855621",
+      "batch_size": 256,
+      "steps": 1000,
+      "noise_multiplier": 2.55,
+      "clip_norm": 1.0,
+      "epsilon": 0.2337018090711964,
+      "delta": 2e-05,
+      "optimal_alpha": 54.0,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:27.864983",
+      "batch_size": 256,
+      "steps": 1000,
+      "noise_multiplier": 1.325,
+      "clip_norm": 1.0,
+      "epsilon": 0.6243984997370458,
+      "delta": 2e-05,
+      "optimal_alpha": 17.0,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:27.892623",
+      "batch_size": 256,
+      "steps": 1000,
+      "noise_multiplier": 0.7125,
+      "clip_norm": 1.0,
+      "epsilon": 2.926359989286052,
+      "delta": 2e-05,
+      "optimal_alpha": 4.7,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:27.904765",
+      "batch_size": 256,
+      "steps": 1000,
+      "noise_multiplier": 1.01875,
+      "clip_norm": 1.0,
+      "epsilon": 1.0956098666436995,
+      "delta": 2e-05,
+      "optimal_alpha": 10.0,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:27.922104",
+      "batch_size": 256,
+      "steps": 1000,
+      "noise_multiplier": 0.8656250000000001,
+      "clip_norm": 1.0,
+      "epsilon": 1.6628655863259896,
+      "delta": 2e-05,
+      "optimal_alpha": 7.1,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:27.944596",
+      "batch_size": 256,
+      "steps": 1000,
+      "noise_multiplier": 0.7890625,
+      "clip_norm": 1.0,
+      "epsilon": 2.1584064697811325,
+      "delta": 2e-05,
+      "optimal_alpha": 5.9,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:27.964374",
+      "batch_size": 256,
+      "steps": 1000,
+      "noise_multiplier": 0.82734375,
+      "clip_norm": 1.0,
+      "epsilon": 1.8843489180628634,
+      "delta": 2e-05,
+      "optimal_alpha": 6.5,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:27.984502",
+      "batch_size": 256,
+      "steps": 1000,
+      "noise_multiplier": 0.808203125,
+      "clip_norm": 1.0,
+      "epsilon": 2.0141177833287442,
+      "delta": 2e-05,
+      "optimal_alpha": 6.200000000000001,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:28.004561",
+      "batch_size": 256,
+      "steps": 1000,
+      "noise_multiplier": 0.8177734375000001,
+      "clip_norm": 1.0,
+      "epsilon": 1.9476722085978435,
+      "delta": 2e-05,
+      "optimal_alpha": 6.300000000000001,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:28.033101",
+      "batch_size": 256,
+      "steps": 1000,
+      "noise_multiplier": 0.81298828125,
+      "clip_norm": 1.0,
+      "epsilon": 1.9812028820877994,
+      "delta": 2e-05,
+      "optimal_alpha": 6.200000000000001,
+      "sampling_rate": 0.00512
+    },
+    {
+      "timestamp": "2026-02-05T11:11:28.052331",
+      "batch_size": 256,
+      "steps": 1000,
+      "noise_multiplier": 0.810595703125,
+      "clip_norm": 1.0,
+      "epsilon": 1.9968252729263551,
+      "delta": 2e-05,
+      "optimal_alpha": 6.200000000000001,
+      "sampling_rate": 0.00512
+    }
+  ]
+}

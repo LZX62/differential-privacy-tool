@@ -1,0 +1,6 @@
+# 差分隐私会计工具依赖列表
+torch>=1.12.0
+torchvision>=0.13.0
+opacus>=1.1.0
+numpy>=1.19.0
+matplotlib>=3.3.0

@@ -1,0 +1,66 @@
+{
+  "epsilon_grid": {
+    "0.5": {
+      "noise_multiplier": 3.8125,
+      "actual_epsilon": 0.5045352443284186,
+      "delta": 2e-05,
+      "batch_size": 256,
+      "steps": 10000,
+      "clip_norm": 1.0
+    },
+    "1.0": {
+      "noise_multiplier": 2.265625,
+      "actual_epsilon": 0.9264419844186431,
+      "delta": 2e-05,
+      "batch_size": 256,
+      "steps": 10000,
+      "clip_norm": 1.0
+    },
+    "2.0": {
+      "noise_multiplier": 1.2601562499999999,
+      "actual_epsilon": 2.038397337632123,
+      "delta": 2e-05,
+      "batch_size": 256,
+      "steps": 10000,
+      "clip_norm": 1.0
+    },
+    "4.0": {
+      "noise_multiplier": 0.8734375,
+      "actual_epsilon": 4.000245374772065,
+      "delta": 2e-05,
+      "batch_size": 256,
+      "steps": 10000,
+      "clip_norm": 1.0
+    },
+    "8.0": {
+      "noise_multiplier": 0.675244140625,
+      "actual_epsilon": 8.00677621845625,
+      "delta": 2e-05,
+      "batch_size": 256,
+      "steps": 10000,
+      "clip_norm": 1.0
+    }
+  },
+  "delta_comparisons": [
+    {
+      "method": "1/N",
+      "epsilon": 1.1444133152542064,
+      "delta": 2e-05,
+      "optimal_alpha": 9.7
+    },
+    {
+      "method": "1/N^1.1",
+      "epsilon": 1.2684470904813168,
+      "delta": 6.778490554679656e-06,
+      "optimal_alpha": 9.8
+    },
+    {
+      "method": "fixed:1e-5",
+      "epsilon": 1.2240854049737402,
+      "delta": 1e-05,
+      "optimal_alpha": 9.7
+    }
+  ],
+  "batch_results_count": 27,
+  "timestamp": "2026-02-05T13:41:40.425027"
+}
