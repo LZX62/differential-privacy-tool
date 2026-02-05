@@ -32,13 +32,13 @@ noise, actual_eps = accountant.compute_noise_for_target_epsilon(
 print(f"需要噪声乘子: σ={noise:.3f}")
 ```
 文件说明
-privacy_accountant_opacus.py: 第4天的代码，基础会计工具
+privacy_accountant_opacus.py: 基础会计工具
 
-dp_accountant_enhanced.py: 第5天的代码，增强版会计工具
+dp_accountant_enhanced.py: 增强版会计工具
 
 作者
-[你的名字]
+[刘紫萱]
 
 日期
-2024年1月
+2026年2月
 
